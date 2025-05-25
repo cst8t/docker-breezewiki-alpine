@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache git racket ca-certificates curl sqlite fontconfig
+RUN apk add --no-cache git racket ca-certificates curl sqlite fontconfig cairo libjpeg-turbo glib pango
 
 WORKDIR /app
 

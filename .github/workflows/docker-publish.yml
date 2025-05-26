@@ -5,7 +5,8 @@ name: Docker Package
 # separate terms of service, privacy policy, and support
 # documentation.
 
-on:
+on: 
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
   push:
